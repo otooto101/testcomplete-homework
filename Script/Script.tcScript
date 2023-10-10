@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="main">
+			<child name="steps" key="{F56A9D83-C27D-4CB4-BE57-48245E531C75}" path="steps.js" />
+		</folder>
+		<folder name="test">
+			<child name="firstrun" key="{EC0F2445-8B51-45CF-9B98-B163012F7250}" path="firstrun.js" />
+		</folder>
+		<child name="Orders_JavaScript" key="{9FAB731C-0B52-43F6-9A01-9CA081C327C7}" path="Orders_JavaScript.js" />
+	</children>
+</Root>
