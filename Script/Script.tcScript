@@ -2,10 +2,29 @@
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
 		<folder name="main">
-			<child name="steps" key="{F56A9D83-C27D-4CB4-BE57-48245E531C75}" path="steps.js" />
+			<folder name="Common">
+				<child name="CommonSteps" key="{F94740A9-15C7-4B88-B199-134B848071AA}" path="CommonSteps.js" />
+			</folder>
+			<folder name="Pages">
+				<child name="OrdersPage" key="{3C3C7AB0-58A9-4D9D-B425-B7750E14DA61}" path="OrdersPage.js" />
+				<child name="OrdersFormPage" key="{4C0E2616-8217-4968-86B1-357CAE15404E}" path="OrdersFormPage.js" />
+			</folder>
+			<folder name="Data">
+				<child name="DataForForm" key="{844A3570-0AB3-4A83-933E-1C1AA956AEA9}" path="DataForForm.js" />
+			</folder>
 		</folder>
 		<folder name="test">
-			<child name="firstrun" key="{EC0F2445-8B51-45CF-9B98-B163012F7250}" path="firstrun.js" />
+			<folder name="TestCases">
+				<child name="AddNewOrderTest" key="{294C263A-3E35-4A21-B10B-934CB91D4723}" path="AddNewOrderTest.js" />
+				<child name="CheckProductsQuantityTest" key="{5DD547FD-0593-4FA9-8CFC-AF90CADA8208}" path="CheckProductsQuantityTest.js" />
+				<child name="CheckInputCharTest" key="{4E7A667E-D828-4CC2-9A57-229A3ABF0276}" path="CheckInputCharTest.js" />
+				<child name="CheckDoesntSavePrice" key="{4982A470-633D-447A-BC89-DDC9A92FAB70}" path="CheckDoesntSavePrice.js" />
+				<child name="CheckInputInvalidDate" key="{486DF318-A23C-468C-ADCD-2C08EF1679B7}" path="CheckInputInvalidDate.js" />
+				<child name="secondTask" key="{403B1AB1-B9DD-4BEF-BEA2-D9078F913806}" path="secondTask.js" />
+			</folder>
+			<folder name="TestRunner">
+				<child name="TestRun" key="{D45AE379-BB06-4721-A319-29EDBA0A6005}" path="TestRun.js" />
+			</folder>
 		</folder>
 		<child name="Orders_JavaScript" key="{9FAB731C-0B52-43F6-9A01-9CA081C327C7}" path="Orders_JavaScript.js" />
 	</children>
