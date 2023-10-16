@@ -8,7 +8,24 @@
 			<testItem key="{EF93846D-F296-48D6-9046-493732D48812}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
-	<variables key="{B6DC08C1-72FE-4205-9CCD-756B4404A95D}" />
+	<variables key="{B6DC08C1-72FE-4205-9CCD-756B4404A95D}">
+		<data Version="4">
+			<Items>
+				<Variable Name="name" Type="String" Local="False">
+					<DefValue StrValue=".??B64??.:bmFtZQ==" />
+				</Variable>
+				<Variable Name="street" Type="String" Local="False">
+					<DefValue StrValue=".??B64??.:c3RyZWV0" />
+				</Variable>
+				<Variable Name="city" Type="String" Local="False">
+					<DefValue StrValue=".??B64??.:Y2l0eQ==" />
+				</Variable>
+				<Variable Name="state" Type="String" Local="False">
+					<DefValue StrValue=".??B64??.:c3RhdGU=" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<analysis key="{64157DCB-CBD6-45E8-8217-27F37295186D}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />

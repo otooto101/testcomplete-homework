@@ -11,7 +11,7 @@
 		<children>
 			<testItem name="ProjectTestItem1" key="{F60086AC-B6A9-482D-A369-F680474A8343}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FDBA772B-8D6F-41C1-9924-A5DD7D4A3FCD}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
