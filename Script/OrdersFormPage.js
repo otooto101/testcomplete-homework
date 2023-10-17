@@ -13,6 +13,28 @@
     this.street = Aliases.Orders.OrderForm.Group.Street;
     this.city = Aliases.Orders.OrderForm.Group.City;
     this.state = Aliases.Orders.OrderForm.Group.State;
+    this.streetText = Aliases.Orders.OrderForm.Group.label8
+    this.zipcode = Aliases.Orders.OrderForm.Group.Zip 
+  }
+  
+  getTextAndFillCityZip(){
+    var adress = this.street.wText;
+    var adresses = adress.split(", ");
+    this.setZip(adresses[2]);
+    this.setCity(adresses[0]);
+  }
+  
+  checkStreetText(text){
+    aqObject.CheckProperty(this.streetText, "WndCaption", cmpEqual, text);
+  }
+  
+  checkCustomerElement(text){
+    this.name.Keys(text);
+    this.name.Keys("^a[DELETE]");
+  }
+  
+  setZip(zip){
+    this.zipcode.setText(zip);
   }
   
   setStreet(street){

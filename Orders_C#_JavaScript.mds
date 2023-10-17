@@ -5,6 +5,7 @@
 		<child name="TestedApps" key="{0AD5C583-EAA7-499A-A1C5-9C37147B8270}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 		<child name="NameMapping" key="{C54F2C63-2A05-495D-B157-4F16AE147E5E}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="KeywordTests" key="{712096B6-A87E-4B95-9D79-54ED4DA4DCF5}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="Events" key="{74AB2805-5D12-48D8-8939-25C9638ABCA0}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Events\Events.tcAX" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{806ADC22-D9F2-4653-B286-F5E3DA1C40FA}" version="14">
