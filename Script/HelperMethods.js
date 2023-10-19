@@ -24,3 +24,10 @@ function getCurrentDateFormatted(format) {
   return day + "/" + month + "/" + year;
 }
 
+function getRandomNumber(min, max){
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+module.exports.concatenateNumbers = concatenateNumbers;
+module.exports.getCurrentDateFormatted = getCurrentDateFormatted;
+module.exports.getRandomNumber = getRandomNumber;

@@ -18,6 +18,8 @@
 			<folder name="TestCases">
 				<child name="CheckNameArguments" key="{4C038C88-7AAA-4086-B3C7-CDDDAA59BB87}" path="CheckNameArguments.js" />
 				<child name="FillStreetTest" key="{BD64975C-6747-48E8-847B-DBAF7944A22C}" path="FillStreetTest.js" />
+				<child name="CardsTest" key="{76105B7C-D5AE-44B8-9E3C-BBC26B62407C}" path="CardsTest.js" />
+				<child name="APIOrdersTest" key="{243DF1D0-9765-4958-8319-B4C652F30159}" path="APIOrdersTest.js" />
 			</folder>
 			<folder name="TestRunner">
 				<child name="TestRun" key="{D45AE379-BB06-4721-A319-29EDBA0A6005}" path="TestRun.js" />

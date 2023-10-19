@@ -13,8 +13,24 @@
     this.street = Aliases.Orders.OrderForm.Group.Street;
     this.city = Aliases.Orders.OrderForm.Group.City;
     this.state = Aliases.Orders.OrderForm.Group.State;
-    this.streetText = Aliases.Orders.OrderForm.Group.label8
-    this.zipcode = Aliases.Orders.OrderForm.Group.Zip 
+    this.streetText = Aliases.Orders.OrderForm.Group.label8;
+    this.zipcode = Aliases.Orders.OrderForm.Group.Zip;
+    this.cardNum = Aliases.Orders.OrderForm.Group.CardNo;
+  }
+  
+  checkRadioButton(quantity){
+    var radioButtons =  Aliases.Orders.OrderForm.Group.FindAllChildren("ClrClassName", "RadioButton")
+    if(radioButtons.length != quantity){
+      Log.Error("radioButton numbers doesnt match");
+    }
+  }
+  
+  validateEditedOrder(text){
+    aqObject.CheckProperty(this.street, "wText", cmpEqual, text);
+  }
+  
+  fillCardNum(number){
+    this.cardNum.setText(number);
   }
   
   getTextAndFillCityZip(){
