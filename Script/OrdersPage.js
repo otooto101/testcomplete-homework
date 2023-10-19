@@ -18,6 +18,11 @@ class OrdersPage{
     this.ordersList.DblClickItem(0, "MyMoney");
   }
   
+  clickEditFirstOrder(){
+    this.ordersList.Click(0, 0);
+    this.toolbar.ClickItem(5, false);
+  }
+  
 }
 
 var ordersPage = new OrdersPage();
