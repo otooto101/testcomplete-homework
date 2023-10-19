@@ -13,3 +13,8 @@ module.exports.openOrders = openOrders;
 module.exports.closeOrders = closeOrders;
 
   
+
+function EventControl1_OnLogError(Sender, LogParams)
+{
+  Log.Message("There is a Log error")
+}

@@ -4,6 +4,7 @@
 		<folder name="main">
 			<folder name="Common">
 				<child name="CommonSteps" key="{F94740A9-15C7-4B88-B199-134B848071AA}" path="CommonSteps.js" />
+				<child name="HelperMethods" key="{7E0BB495-03E7-494C-B631-8A49DE134F9B}" path="HelperMethods.js" />
 			</folder>
 			<folder name="Pages">
 				<child name="OrdersPage" key="{3C3C7AB0-58A9-4D9D-B425-B7750E14DA61}" path="OrdersPage.js" />
@@ -15,12 +16,8 @@
 		</folder>
 		<folder name="test">
 			<folder name="TestCases">
-				<child name="AddNewOrderTest" key="{294C263A-3E35-4A21-B10B-934CB91D4723}" path="AddNewOrderTest.js" />
-				<child name="CheckProductsQuantityTest" key="{5DD547FD-0593-4FA9-8CFC-AF90CADA8208}" path="CheckProductsQuantityTest.js" />
-				<child name="CheckInputCharTest" key="{4E7A667E-D828-4CC2-9A57-229A3ABF0276}" path="CheckInputCharTest.js" />
-				<child name="CheckDoesntSavePrice" key="{4982A470-633D-447A-BC89-DDC9A92FAB70}" path="CheckDoesntSavePrice.js" />
-				<child name="CheckInputInvalidDate" key="{486DF318-A23C-468C-ADCD-2C08EF1679B7}" path="CheckInputInvalidDate.js" />
-				<child name="secondTask" key="{403B1AB1-B9DD-4BEF-BEA2-D9078F913806}" path="secondTask.js" />
+				<child name="CheckNameArguments" key="{4C038C88-7AAA-4086-B3C7-CDDDAA59BB87}" path="CheckNameArguments.js" />
+				<child name="FillStreetTest" key="{BD64975C-6747-48E8-847B-DBAF7944A22C}" path="FillStreetTest.js" />
 			</folder>
 			<folder name="TestRunner">
 				<child name="TestRun" key="{D45AE379-BB06-4721-A319-29EDBA0A6005}" path="TestRun.js" />
